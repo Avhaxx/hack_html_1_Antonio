@@ -11,12 +11,12 @@ body {
 }
 
 .cabecera1 {
-    background-color: #93B5C9; /* Color azul claro */
-    height: 15vh; /* Ajusta la altura de la cabecera */
+    background-color: #93B5C9; 
+    height: 15vh; 
 }
 .cabecera2 {
-    background-color: #AB2849; /* Color azul claro */
-    height: 25vh; /* Ajusta la altura de la cabecera */
+    background-color: #AB2849; 
+    height: 25vh;
 }
 .barra {
     background-color: #B23A48;
