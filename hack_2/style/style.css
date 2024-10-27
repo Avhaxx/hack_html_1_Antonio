@@ -1,42 +1,38 @@
-* {
+body {
+    background-color: #ffffff;
     margin: 0;
-    padding: 0;}
+}
 
-    .cabecera1 {
-        background-color: #93B5C9;
-        height: 150px; 
-        width: 100%; 
-        margin-top: 0; 
-    }
-    .cabecera2 {
-    background-color: #AB2849; 
-    height: 220px; 
-    width: 100%; 
-    }
-/* prueba*/
-/* Contenedor para las barras */
-.barras-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, auto) auto; 
+.contenedor {
     width: 100%;
 }
 
+.cabecera1 {
+    background-color: #93B5C9;
+    height: 20vh;
+}
+
+.cabecera2 {
+    background-color: #AB2849; 
+    height: 30vh;
+}
+
+.barras {
+    clear: both;
+}
 
 .barra {
     background-color: #AB2849;
-    width: 80%; 
-    height: 100px; 
-    margin: 1% 0%;
-    
-     
+    width: 75%;
+    height: 15vh; 
+    margin: 1% 0;
+    float: left;
 }
-
 
 .barra5 {
     background-color: #AB2849;
-    width: 90%; 
-    height: 100px; 
-    margin: 1% 100%; 
-    justify-self: center; 
+    width: 70%;
+    height: 15vh;
+    margin: 1% auto; 
+    clear: both;
 }
