@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;}
+
+    .cabecera1 {
+        background-color: #93B5C9;
+        height: 150px; 
+        width: 100%; 
+        margin-top: 0; 
+    }
+    .cabecera2 {
+    background-color: #AB2849; 
+    height: 220px; 
+    width: 100%; 
+    }
+/* prueba*/
+/* Contenedor para las barras */
+.barras-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto) auto; 
+    width: 100%;
+}
+
+
+.barra {
+    background-color: #AB2849;
+    width: 80%; 
+    height: 100px; 
+    margin: 1% 0%;
+    
+     
+}
+
+
+.barra5 {
+    background-color: #AB2849;
+    width: 90%; 
+    height: 100px; 
+    margin: 1% 100%; 
+    justify-self: center; 
+}
